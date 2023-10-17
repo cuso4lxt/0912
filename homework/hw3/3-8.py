@@ -48,7 +48,6 @@ if __name__ == "__main__":
     for length in lengths:
         arr = [random.randint(1, 100000) for _ in range(length)]
         print(f"Sorting array of length: {length}")
-
         # 选择排序
         start_time = time.time()
         selection_sort(arr.copy())
